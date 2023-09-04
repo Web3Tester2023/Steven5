@@ -1,0 +1,74 @@
+@import url('./fonts.scss');
+
+* {
+  $scrollRound : 1px;
+  $scrollWidth : 6px;
+  $scrollHeight: 10px;
+  $scrollBG_track : #6e829c;
+  $scrollBG_thumb : #061d31;
+  $scrollColor : #26384c #452d6b;
+
+  box-sizing: border-box;
+  scrollbar-width: $scrollWidth;
+  scrollbar-color: $scrollColor;
+}
+
+
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'funny';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.default-input {
+  resize: none;
+  outline: unset;
+  background-color: unset;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.text-image {
+  background: conic-gradient(from 170.96deg at 50% 50%, #F1F6FE 0deg, #4ACFFF 74.18deg, #75DBFF 88.71deg, #FCFDFF 119.15deg, #C1EFFF 193.22deg, #DFEDFF 214.33deg, #5ED5FF 250.9deg, #FFFFFF 292.84deg, #7EDDFF 330.8deg, #F1F6FE 360deg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-divider {
+  height: 2px;
+  background: linear-gradient(to right, #1b8ad2 0%, #1b8ad2 50%, #fff 50%, #fff 100%);
+}
+
+.custom-box-border {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -3px -5px;
+    z-index: -1;
+    border-radius: 40px;
+    display: block;
+    background: linear-gradient(90deg, rgba(133, 227, 245, .03) -1.41%, #85E3F5 50.62%, rgba(133, 227, 245, .03) 101.52%);
+  }
+}
+
+.border-img {
+  background-image: url(../image/border-img.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+ul {
+  list-style-type: disc;
+}

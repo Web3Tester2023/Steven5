@@ -1,0 +1,78 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.metamask-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 75px;
+    cursor: pointer;
+  }
+  
+  .coinbase-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 13px;
+    cursor: pointer;
+  }
+  
+  .wallet-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  
+  .wallet-row :hover {
+    /* background-color: grey; */
+    cursor: pointer;
+  }
+  
+  .black-text {
+    color: rgb(255, 254, 254);
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  
+  p.black-text {
+    font-size: 25px;
+  }
+  
+  .text-warning {
+    color: #fe9431 !important;
+  }
+  
+  button:disabled,
+  button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  
+  .stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .dex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 1024px;
+    margin: 0px auto;
+    justify-content: center;
+  }
+  .dex-body {
+    width: 100%;
+    max-width: 600px;
+  }
+  

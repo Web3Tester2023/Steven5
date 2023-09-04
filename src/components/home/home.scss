@@ -1,0 +1,286 @@
+.swiper {
+  width: 100%;
+
+  .swiper-pagination {
+    .swiper-pagination-bullet {
+      background: white;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #007aff;
+    }
+  }
+
+  .swiper-button-prev {
+    left: 0px;
+  }
+
+  .swiper-button-next {
+    right: 0px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+
+    z-index: 2;
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: all !important;
+
+    top: 0;
+    height: 100%;
+    margin: unset !important;
+  }
+}
+
+.preview-swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .preview-swiper-container {
+    padding: 190px 0px 200px;
+
+    .preview-item {
+      position: relative;
+      transition: 0.3s;
+      border-radius: 30px;
+      border: 5px solid #4acfff;
+      transform: scaleY(1.2);
+      filter: blur(5px);
+
+      .preview-img {
+        border-radius: 30px;
+      }
+
+      .preview-logo {
+        display: none;
+        position: absolute;
+        left: -5%;
+        top: -5%;
+
+        width: 15%;
+        height: auto;
+      }
+    }
+
+    .swiper-slide-active {
+      z-index: 2;
+
+      .preview-item {
+        filter: blur(0px);
+        transform: scale3d(1.5, 2, 1);
+
+        .preview-logo {
+          display: block;
+        }
+      }
+    }
+
+    @media (max-width: 1300px) {
+      padding: 150px 0px 170px;
+    }
+
+    @media (max-width: 1024px) {
+      padding: 100px 0px 130px;
+    }
+
+    @media (max-width: 800px) {
+      padding: 100px 0px 120px;
+
+      .preview-item {
+        border-width: 2px;
+        border-radius: 10px;
+
+        .preview-img {
+          border-radius: 10px;
+        }
+      }
+
+      .swiper-slide-active {
+        .preview-item {
+          transform: scale3d(2.3, 2, 1);
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      padding: 80px 0px 100px;
+    }
+
+    @media (max-width: 450px) {
+      padding: 50px 0px 80px;
+    }
+  }
+}
+
+.roadmap-swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .roadmap-swiper-container {
+    padding: 50px 0px;
+
+    .roadmap-item-header {
+      position: relative;
+
+      &::before {
+        content: "";
+        width: 16px;
+        height: 16px;
+        border: 2px solid #3ba3c9;
+        border-radius: 50%;
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        margin: 0 auto 10px;
+        background: #133f65;
+        color: #000;
+        transition: all ease-in-out 0.3s;
+        cursor: pointer;
+        position: relative;
+        top: 19px;
+      }
+
+      &::after {
+        content: "";
+        background: transparent;
+        border-bottom: 4px dotted #3ba3c9;
+        position: absolute;
+        width: 100%;
+        top: 25px;
+        left: 0;
+        z-index: -999;
+        transition: all ease-in-out 0.3s;
+      }
+    }
+
+    .roadmap-active {
+      .roadmap-item-header {
+        &::before {
+          background: conic-gradient(
+            from 170.96deg at 50% 50%,
+            #f1f6fe 0deg,
+            #4acfff 74.18deg,
+            #75dbff 88.71deg,
+            #fcfdff 119.15deg,
+            #c1efff 193.22deg,
+            #dfedff 214.33deg,
+            #5ed5ff 250.9deg,
+            #ffffff 292.84deg,
+            #7eddff 330.8deg,
+            #f1f6fe 360deg
+          );
+          border: 1px solid #000000;
+          outline: 17px solid rgba(255, 255, 255, 0.19);
+          box-shadow: 0 0 0 5px #fff;
+          height: 13px;
+          width: 13px;
+        }
+      }
+    }
+  }
+}
+
+.stats {
+  float: left;
+  margin-left: 50px;
+}
+
+.stats ul {
+  list-style: none;
+}
+
+.stats li {
+  position: relative;
+  margin: 10px 0;
+  padding: 0px;
+}
+
+.stats li::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -25px;
+  width: 15px;
+  height: 15px;
+  background-color: #aaaaaa;
+}
+
+.stats li[data-name="uniswap"]::before {
+  background-color: #4285f4;
+}
+
+.stats li[data-name="presale"]::before {
+  background-color: #ea4335;
+}
+
+.stats li[data-name="cex"]::before {
+  background-color: #fbbc04;
+}
+
+.stats li[data-name="Marketing"]::before {
+  background-color: #34a853;
+}
+
+.stats li[data-name="staking"]::before {
+  background-color: #ff6d01;
+}
+
+.stats li[data-name="team"]::before {
+  background-color: #4f6d9f;
+}
+
+.stats li[data-name="airdrop"]::before {
+  background-color: #46bdc6;
+}
+
+// #roadmap{
+//   background-image: url(../../assets/image/preview/Artboard-2.png);
+//   background-size: cover;
+// }
+.ai-token {
+  position: relative;
+  background-image: url(../../assets/image/about-token.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.roadmap {
+  position: relative;
+  background-image: url(../../assets/image/roadmap.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  // background: #133f65;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.tokenomic {
+  position: relative;
+  background-image: url(../../assets/image/3.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.faq {
+  position: relative;
+  background-image: url(../../assets/image/fap-container.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}

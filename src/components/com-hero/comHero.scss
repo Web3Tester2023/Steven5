@@ -1,0 +1,91 @@
+@use "../../assets/style/variable";
+
+.hero-wrapper {
+  position: relative;
+  background-image: url(../../assets/image/background.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 30px;
+
+  .whitepaper-btn {
+    border: 2px solid #0dc5f5;
+    background-color: black;
+  }
+
+  .hero-header {
+    background: linear-gradient(180deg, #4acfff -4.32%, #042948 91.56%);
+  }
+
+  @media (max-width: 1024px) {
+    background-size: 100% 100%;
+  }
+
+  @media (max-width: variable.$md) {
+    padding: 64px 0px 0px;
+    background-image: url(../../assets/image/background.png);
+    background-size: 100% auto;
+    background-size: cover;
+  }
+}
+
+.card-wrapper {
+  border: 1px solid rgb(223, 224, 229);
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+  &:hover {
+    border-color: rgb(103, 193, 255);
+  }
+
+  .card-element-container {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+    display: block !important;
+    background: transparent !important;
+    position: relative !important;
+    opacity: 1 !important;
+
+    iframe {
+      border: none !important;
+      margin: 0px !important;
+      padding: 0px !important;
+      width: 1px !important;
+      min-width: 100% !important;
+      overflow: hidden !important;
+      display: block !important;
+      user-select: none !important;
+      transform: translate(0px) !important;
+      color-scheme: light only !important;
+      height: 14.4px;
+    }
+  }
+}
+
+.text-thin-blue {
+  --tw-text-opacity: 1;
+  color: rgb(102 238 247 / var(--tw-text-opacity));
+}
+
+.btn-primary {
+  background: #2ab9f6;
+  border: 1px solid hsla(0, 0%, 100%, 0.12);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --tw-text-opacity: 1;
+  align-items: center;
+  border-radius: 6px;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
+  min-height: 50px;
+  padding: 4px;
+  width: 100%;
+}
+.buy-box{
+  font-family: Inder, sans-serif;
+}

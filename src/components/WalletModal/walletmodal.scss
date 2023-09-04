@@ -1,0 +1,15 @@
+.wallet-main-container {
+  @apply flex flex-col justify-center gap-20 px-10 py-20 w-full h-full;
+
+  .wallet-item {
+    @apply flex items-center justify-between gap-20 w-full bg-black/[0.2] px-20 xs:px-30 py-10 sm:py-16 cursor-pointer rounded-lg;
+
+    p {
+      @apply text-white text-16 sm:text-20;
+    }
+
+    .wallet-icon {
+      @apply flex justify-center items-center w-50 h-50 rounded-full bg-white;
+    }
+  }
+}
