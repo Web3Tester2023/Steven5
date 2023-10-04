@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Divider } from "@mui/material";
 import { ethers } from "ethers";
 import "./comHero.scss";
-import bnbIcon from "../../assets/image/coins/bnb.svg";
+import ethIcon from "../../assets/image/coins/eth.svg";
 import claimIcon from "../../assets/image/coins/claim.png";
 import usdtIcon from "../../assets/image/coins/usdt.svg";
 import instagramIcon from "../../assets/image/socials/instagram.svg";
@@ -219,7 +219,7 @@ const ComponentHeroContainer = () => {
                         </svg>
                         <p className="text-[16px]">
                           Aim for the Stars, Ride with APEs
-                          chain!
+                          
                         </p>
                       </div>
                     </div>
@@ -278,7 +278,7 @@ const ComponentHeroContainer = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Read our Detailed Whitepaper
+                        Our Whitepaper
                       </a>
                       <svg
                         width="16"
@@ -340,7 +340,7 @@ const ComponentHeroContainer = () => {
                         >
                           <img
                             alt=""
-                            src={bnbIcon}
+                            src={ethIcon}
                             className="h-25 w-25 rounded-full"
                           />
                           <span className="text-18 font-bold">BNB</span>
@@ -406,7 +406,7 @@ const ComponentHeroContainer = () => {
                                   {tapState === 1 ? (
                                     <img
                                       alt=""
-                                      src={bnbIcon}
+                                      src={ethIcon}
                                       className="w-full h-full"
                                     />
                                   ) : (
