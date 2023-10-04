@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Divider } from "@mui/material";
 import { ethers } from "ethers";
 import "./comHero.scss";
-import ethIcon from "../../assets/image/coins/eth.svg";
+import bnbIcon from "../../assets/image/coins/bnb.svg";
 import claimIcon from "../../assets/image/coins/claim.png";
 import usdtIcon from "../../assets/image/coins/usdt.svg";
 import instagramIcon from "../../assets/image/socials/instagram.svg";
@@ -278,7 +278,7 @@ const ComponentHeroContainer = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Our Whitepaper
+                        Whitepaper
                       </a>
                       <svg
                         width="16"
@@ -340,7 +340,7 @@ const ComponentHeroContainer = () => {
                         >
                           <img
                             alt=""
-                            src={ethIcon}
+                            src={bnbIcon}
                             className="h-25 w-25 rounded-full"
                           />
                           <span className="text-18 font-bold">BNB</span>
@@ -406,7 +406,7 @@ const ComponentHeroContainer = () => {
                                   {tapState === 1 ? (
                                     <img
                                       alt=""
-                                      src={ethIcon}
+                                      src={bnbIcon}
                                       className="w-full h-full"
                                     />
                                   ) : (
