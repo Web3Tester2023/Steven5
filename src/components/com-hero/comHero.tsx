@@ -340,7 +340,7 @@ const ComponentHeroContainer = () => {
                         >
                           <img
                             alt=""
-                            src={bnbIcon}
+                            src={ethIcon}
                             className="h-25 w-25 rounded-full"
                           />
                           <span className="text-18 font-bold">BNB</span>
@@ -406,7 +406,7 @@ const ComponentHeroContainer = () => {
                                   {tapState === 1 ? (
                                     <img
                                       alt=""
-                                      src={bnbIcon}
+                                      src={ethIcon}
                                       className="w-full h-full"
                                     />
                                   ) : (
