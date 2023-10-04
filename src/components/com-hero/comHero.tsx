@@ -195,8 +195,8 @@ const ComponentHeroContainer = () => {
               <div className="hidden mm:flex flex-col gap-50 pt-[20px]">
                 <Fade left>
                   <h1 className="text-[50px]">
-                    <span className="text-thin-blue">YANDER </span>{" "}
-                    <br />Bringing the fun back to blockchain
+                    <span className="text-thin-blue">APE WARRIOR </span>{" "}
+                    <br />Unleash the Power of APEs
                   </h1>
                   <div className="flex flex-col gap-10">
                     <div className="flex flex-col gap-5">
@@ -218,7 +218,7 @@ const ComponentHeroContainer = () => {
                           />
                         </svg>
                         <p className="text-[16px]">
-                          YANDER is the ultimate meme token on the Ethereum
+                          Aim for the Stars, Ride with APEs
                           chain!
                         </p>
                       </div>
@@ -242,7 +242,7 @@ const ComponentHeroContainer = () => {
                           />
                         </svg>
                         <p className="text-[16px]">
-                          YANDER offers a fun and interactive experience.
+                          Profit While You HODL.
                         </p>
                       </div>
                     </div>
@@ -265,7 +265,7 @@ const ComponentHeroContainer = () => {
                           />
                         </svg>
                         <p className="text-[16px]">
-                          YANDER is built on a decentralized blockchain,
+                          Join the APEWARRIOR Revolution.
                         </p>
                       </div>
                     </div>
@@ -274,11 +274,11 @@ const ComponentHeroContainer = () => {
                     <button className="btn-primary !p-[8px] !bg-[#8fd7a8]">
                       <a
                         className="text-[18px]"
-                        href="https://freelancer.com"
+                        href="https://pdfhost.io"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        WhitePaper
+                        Read our Detailed Whitepaper
                       </a>
                       <svg
                         width="16"
@@ -305,7 +305,7 @@ const ComponentHeroContainer = () => {
                   <div className="flex flex-col gap-30 p-5 bg-white rounded-lg border-[2px] border-solid boder-[#d4dadf]">
                     <div className="hero-header rounded-lg p-25 font-semibold text-center text-white text-[30px]">
                       <p className="flex flex-row gap-[5px]">
-                        Presale ending in
+                        Presale ends in
                         <Countdown
                           date={deadline}
                           onComplete={countdownComplete}
@@ -324,7 +324,7 @@ const ComponentHeroContainer = () => {
                       />
                       <div className="relative">
                         <div className="px-30 text-15 font-semibold text-center">
-                          1 $YANDER = $0.00001
+                          1 $APE = $0.00001
                         </div>
 
                         <Divider className="absolute w-full top-[50%]" />
@@ -340,10 +340,10 @@ const ComponentHeroContainer = () => {
                         >
                           <img
                             alt=""
-                            src={ethIcon}
+                            src={bnbIcon}
                             className="h-25 w-25 rounded-full"
                           />
-                          <span className="text-18 font-bold">ETH</span>
+                          <span className="text-18 font-bold">BNB</span>
                         </div>
 
                         <div
@@ -375,7 +375,7 @@ const ComponentHeroContainer = () => {
                             src={claimIcon}
                             className="h-25 w-25 rounded-full"
                           />
-                          <span className="text-18 font-bold">claim</span>
+                          <span className="text-18 font-bold">Claim</span>
                         </div>
                       </div>
                       <Divider />
@@ -387,7 +387,7 @@ const ComponentHeroContainer = () => {
                                 <span className="text-15 opacity-80">
                                   Amount in{" "}
                                   {tapState === 1 ? (
-                                    <span className="font-semibold">ETH</span>
+                                    <span className="font-semibold">BNB</span>
                                   ) : (
                                     <span className="font-semibold">USDT</span>
                                   )}{" "}
@@ -406,7 +406,7 @@ const ComponentHeroContainer = () => {
                                   {tapState === 1 ? (
                                     <img
                                       alt=""
-                                      src={ethIcon}
+                                      src={bnbIcon}
                                       className="w-full h-full"
                                     />
                                   ) : (
@@ -423,7 +423,7 @@ const ComponentHeroContainer = () => {
                             <div className="flex flex-col">
                               <div className="flex flex-row justify-between">
                                 <span className="text-15 opacity-80">
-                                  <span className="font-semibold">$YANDER</span>{" "}
+                                  <span className="font-semibold">$APE</span>{" "}
                                   you receive
                                 </span>
                               </div>
@@ -454,7 +454,7 @@ const ComponentHeroContainer = () => {
                           </div>
 
                           <div className="text-15 text-center">
-                            0.015 ETH is reserved for gas. The actual amount
+                            Reserve some BNB for gas fees. The actual amount
                             used will depend on the network.
                           </div>
 
@@ -499,7 +499,7 @@ const ComponentHeroContainer = () => {
 
                           {!isClaim && (
                             <div className="text-13 text-center text-red-500">
-                              Claim is not available before the presale ended
+                             Claim is not yet available
                             </div>
                           )}
 
@@ -544,7 +544,7 @@ const ComponentHeroContainer = () => {
                         </div>
                       )}
                       <div className="text-15 text-center pb-15">
-                        Stage 2 price: $0.0000125
+                        Stage 1 price: $0.0000100
                       </div>
                     </div>
                   </div>
