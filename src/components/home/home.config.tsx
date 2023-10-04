@@ -1,7 +1,7 @@
 export const roadmapList = [
   {
     label: 'Current',
-    title: 'Phase #1: Unleash the APE's',
+    title: 'Phase #1: Unleash the APEs',
     list: [
       'Token Launch & Presale',
       'Listing on Major DEX & CEX Exchanges',
