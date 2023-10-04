@@ -61,7 +61,7 @@ export const HomePage = () => {
         <Container maxWidth={"xl"} className="pt-20 md:pt-100 pb-20">
           <Zoom>
             <div className="text-[50px] text-center flex items-center justify-center">
-              ABOUT YANDER
+              ABOUT APE WARRIOR
             </div>
           </Zoom>
           <div className="flex flex-col gap-30">
@@ -75,22 +75,14 @@ export const HomePage = () => {
                   </Fade>
                   <Fade right>
                     <span className="text-16 max-w-400">
-                      Yander’s Playground: Dive into our virtual playground, a
-                      gamified platform where you can engage in various
-                      challenges, games, and competitions. Earn Yander tokens
-                      while having a blast with friends and fellow Yander
-                      enthusiasts
+                      At APEWARRIOR, we're not just another cryptocurrency project; we're a force of nature, powered by the relentless determination and strength of Apes. Our mission? To conquer the crypto jungle and aim for a staggering $100 million market cap. How do we plan to do it? By harnessing the collective power of our APE community. We're not here to monkey around; we're here to lead the way in the world of crypto.
                     </span>
                   </Fade>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center gap-[100px] items-center">
                   <Fade left>
                     <span className="text-16 max-w-400">
-                      Youthful NFTs: Immerse yourself in the world of Yander
-                      with our collection of limited-edition non-fungible tokens
-                      (NFTs). These visually stunning artworks represent the
-                      spirit of youth, offering a unique way to showcase your
-                      love for the project and share it with others.
+                      We believe in the power of unity, and that's why APEWARRIOR is all about community-driven growth. We're committed to giving back to our investors through innovative staking solutions, exclusive benefits for presale participants, and exciting features that set us apart from the competition.
                     </span>
                   </Fade>
                   <Fade top>
@@ -103,21 +95,14 @@ export const HomePage = () => {
                   </Fade>
                   <Fade right>
                     <span className="text-16 max-w-400">
-                      Yander Merchandise: Show off your Yander pride with our
-                      exclusive merchandise collection. From stylish apparel to
-                      playful accessories, our merchandise allows you to express
-                      your support for Yander wherever you go.
+                      Our target is bold and ambitious: a $100 million market cap. When you invest in APEWARRIOR, you're joining a community that's not afraid to aim high, with the strength and determination of Apes by your side.
                     </span>
                   </Fade>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center gap-[100px] items-center">
                   <Fade left>
                     <span className="text-16 max-w-400">
-                      Yander Charity Initiatives: We believe in giving back to
-                      the community and making a positive impact. Yander
-                      regularly partners with charitable organizations, donating
-                      a portion of the proceeds to support causes that benefit
-                      children and promote their well-being.
+                      Don't miss your chance to be a part of the APEWARRIOR revolution. Whether you're an experienced crypto enthusiast or just starting your journey, we welcome you to our APE community. Together, we'll rise, conquer, and unlock the full potential of APEs in the crypto jungle.
                     </span>
                   </Fade>
                   <Fade top>
@@ -131,7 +116,7 @@ export const HomePage = () => {
                   <Fade right>
                     <span className="text-15 md:text-20 max-w-400">
                       Secure and Transparent: We prioritize the security of your
-                      tokens and strive for complete transparency. YANDER is
+                      tokens and strive for complete transparency. APE WARRIOR is
                       built on a decentralized blockchain, ensuring.
                     </span>
                   </Fade>
@@ -213,7 +198,7 @@ export const HomePage = () => {
               </span>
               <Zoom>
                 <span className="text-image text-30 md:text-50 font-bold leading-none">
-                  ROADMAP
+                  APE WARRIOR
                 </span>
               </Zoom>
             </div>
