@@ -564,7 +564,7 @@ export const SocialsLink = () => {
   return (
     <div className="flex flex-row gap-10 items-center justify-center">
       <a
-        href="https://www.instagram.com/aidogecrypto/"
+        href="https://www.instagram.com/"
         target="_blank"
         rel="noreferrer"
       >
@@ -575,7 +575,7 @@ export const SocialsLink = () => {
         />
       </a>
       <a
-        href="https://twitter.com/aidogecrypto"
+        href="https://twitter.com/"
         target="_blank"
         rel="noreferrer"
       >
@@ -585,7 +585,7 @@ export const SocialsLink = () => {
           className="w-40 h-40 cursor-pointer hover:opacity-75"
         />
       </a>
-      <a href="https://discord.gg/QE5PdhbjUY" target="_blank" rel="noreferrer">
+      <a href="https://discord.gg/" target="_blank" rel="noreferrer">
         <img
           alt=""
           src={discordIcon}
@@ -593,7 +593,7 @@ export const SocialsLink = () => {
         />
       </a>
       <a
-        href="https://t.me/AiDogeCryptoOfficial"
+        href="https://t.me/"
         target="_blank"
         rel="noreferrer"
       >
@@ -604,7 +604,7 @@ export const SocialsLink = () => {
         />
       </a>
       <a
-        href="https://www.tiktok.com/@aidogecrypto"
+        href="https://www.tiktok.com/"
         target="_blank"
         rel="noreferrer"
       >
