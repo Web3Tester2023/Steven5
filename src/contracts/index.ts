@@ -2,9 +2,9 @@
 import { ethers } from "ethers";
 
 // import Contrats from "./contracts/4002.json";
-import Contrats from "./contracts/1.json";
+import Contrats from "./contracts/56.json";
 import { fromBigNum } from "../utils";
-const supportChainId = 1;
+const supportChainId = 56;
 const TOTALPRESALETOKENAMOUNT = 650000000000;
 
 const RPCS = {
