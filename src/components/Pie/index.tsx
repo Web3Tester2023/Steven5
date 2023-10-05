@@ -54,13 +54,13 @@ const Chart = () => {
         radius: "60%",
         center: ["70%", "60%"],
         data: [
-          { value: 65, name: "Presale" },
+          { value: 50, name: "Presale" },
           { value: 20, name: "liquidity & cex" },
           { value: 5, name: "Marketing" },
           { value: 5, name: "Rewards" },
-          { value: 2, name: "Team" },
-          { value: 2, name: "SCHOLARSHIP FUND" },
-          { value: 1, name: "Development" },
+          { value: 1, name: "Team" },
+          { value: 14, name: "Staking" },
+          { value: 5, name: "Development" },
         ],
         itemStyle: {
           emphasis: {
