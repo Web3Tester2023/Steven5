@@ -3,7 +3,7 @@ import React from "react";
 // ----------------------------------------------------------------------
 export const navConfig = [
   {
-    title: '$YANDER Token',
+    title: 'About Us',
     icon: <></>,
     path: 'ai-token',
   }, {
@@ -11,7 +11,7 @@ export const navConfig = [
     icon: <></>,
     path: 'roadmap',
   }, {
-    title: 'Tokenomic',
+    title: 'Tokenomics',
     icon: <></>,
     path: 'tokenomic',
   },
