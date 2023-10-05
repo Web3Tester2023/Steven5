@@ -274,7 +274,7 @@ const ComponentHeroContainer = () => {
                     <button className="btn-primary !p-[8px] !bg-[#8fd7a8]">
                       <a
                         className="text-[18px]"
-                        href="https://pdfhost.io"
+                        href="https://pdfhost.io/v/2aMNVT.hr_Ape_Warrior_Whitepaper"
                         target="_blank"
                         rel="noreferrer"
                       >
