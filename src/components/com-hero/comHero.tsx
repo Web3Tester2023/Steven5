@@ -563,19 +563,9 @@ const ComponentHeroContainer = () => {
 export const SocialsLink = () => {
   return (
     <div className="flex flex-row gap-10 items-center justify-center">
+      
       <a
-        href="https://www.instagram.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          alt=""
-          src={instagramIcon}
-          className="w-40 h-40 cursor-pointer hover:opacity-75"
-        />
-      </a>
-      <a
-        href="https://twitter.com/"
+        href="https://twitter.com/ApeWarrior_BSC"
         target="_blank"
         rel="noreferrer"
       >
@@ -585,15 +575,9 @@ export const SocialsLink = () => {
           className="w-40 h-40 cursor-pointer hover:opacity-75"
         />
       </a>
-      <a href="https://discord.gg/" target="_blank" rel="noreferrer">
-        <img
-          alt=""
-          src={discordIcon}
-          className="w-40 h-40 cursor-pointer hover:opacity-75"
-        />
-      </a>
+      
       <a
-        href="https://t.me/"
+        href="https://t.me/Ape_Warrior"
         target="_blank"
         rel="noreferrer"
       >
@@ -603,17 +587,18 @@ export const SocialsLink = () => {
           className="w-40 h-40 cursor-pointer hover:opacity-75"
         />
       </a>
-      <a
-        href="https://www.tiktok.com/"
+ <a
+        href="https://t.me/ApeWarrior_News"
         target="_blank"
         rel="noreferrer"
       >
         <img
           alt=""
-          src={siktokIcon}
-          className="w-30 h-30 cursor-pointer hover:opacity-75"
+          src={telegramIcon}
+          className="w-40 h-40 cursor-pointer hover:opacity-75"
         />
       </a>
+      
     </div>
   );
 };
