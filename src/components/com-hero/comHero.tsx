@@ -35,7 +35,7 @@ export const ComponentHero = () => {
 
 const ComponentHeroContainer = () => {
   const { active, account, library } = useWallet();
-  const [deadline, setDeadline] = useState(new Date("2023-10-31T00:00:00"));
+  const [deadline, setDeadline] = useState(new Date("2023-10-09T00:00:00"));
   const [walletOpen, setWalletOpen] = useState(false);
 
   const [tokenPrice, setTokePrice] = useState(0);
@@ -316,7 +316,7 @@ const ComponentHeroContainer = () => {
                     <div className="flex flex-col gap-20 px-20">
                       <div className="font-semibold text-center text-[#01b6f5]">
                         Total Sold: {Math.floor(totalSaled).toLocaleString()}
-                        /650,000,000,000
+                        /500,000,000,000
                       </div>
                       <ProgressBar
                         value={progressStatus}
