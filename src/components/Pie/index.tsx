@@ -3,13 +3,13 @@ import { PieChart } from "react-minimal-pie-chart";
 import ReactEcharts from "echarts-for-react";
 
 const myData = [
-  { title: "65% Presale", value: 65, color: "#4285F4" },
+  { title: "50% Presale", value: 50, color: "#4285F4" },
   { title: "20% liquidity", value: 20, color: "#EA4335" },
   { title: "5% Marketing", value: 5, color: "#FBBC04" },
   { title: "5% Reward", value: 5, color: "#34A853" },
-  { title: "2% Team", value: 2, color: "#FF6D01" },
-  { title: "2% SCHOLARSHIP FUND", value: 2, color: "#4F6D9F" },
-  { title: "1% Development ", value: 1, color: "#46BDC6" },
+  { title: "1% Team", value: 1, color: "#FF6D01" },
+  { title: "14% Staking", value: 14, color: "#4F6D9F" },
+  { title: "5% Development ", value: 5, color: "#46BDC6" },
 ];
 
 const Chart = () => {
@@ -30,7 +30,7 @@ const Chart = () => {
         "Marketing",
         "Rewards",
         "Team",
-        "SCHOLARSHIP FUND",
+        "Staking",
         "Development",
       ],
       textStyle: {
