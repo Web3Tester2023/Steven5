@@ -28,7 +28,7 @@ export const Footer = () => {
             </div>
 
             <div className="text-15 flex flex-row gap-5">
-              <span className="text-borderColor">© 2023 YANDER</span>
+              <span className="text-borderColor">© 2023 APE WARRIOR</span>
               <span>All Rights Reserved.</span>
             </div>
 
