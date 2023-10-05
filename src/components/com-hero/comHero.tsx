@@ -305,7 +305,7 @@ const ComponentHeroContainer = () => {
                   <div className="flex flex-col gap-30 p-5 bg-white rounded-lg border-[2px] border-solid boder-[#d4dadf]">
                     <div className="hero-header rounded-lg p-25 font-semibold text-center text-white text-[30px]">
                       <p className="flex flex-row gap-[5px]">
-                        Presale ends in
+                        Stage #1 ends in
                         <Countdown
                           date={deadline}
                           onComplete={countdownComplete}
