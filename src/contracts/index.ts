@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import Contrats from "./contracts/56.json";
 import { fromBigNum } from "../utils";
 const supportChainId = 56;
-const TOTALPRESALETOKENAMOUNT = 650000000000;
+const TOTALPRESALETOKENAMOUNT = 500000000000;
 
 const RPCS = {
     1: "https://mainnet.infura.io/v3/49a547b1f17a417f8b7fe8dc8d33308e",
