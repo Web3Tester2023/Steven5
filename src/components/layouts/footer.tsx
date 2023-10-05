@@ -24,7 +24,7 @@ export const Footer = () => {
 
           <div className="flex flex-col sm:flex-row gap-10 md:gap-20 sm:justify-between sm:items-center px-10 md:px-30 pt-20">
             <div className="flex flex-row gap-10 md:gap-20 flex-wrap">
-              Yander INC, Panama City, Panama
+              Ape Warrior, Panama City, Panama
             </div>
 
             <div className="text-15 flex flex-row gap-5">
