@@ -35,7 +35,7 @@ export const ComponentHero = () => {
 
 const ComponentHeroContainer = () => {
   const { active, account, library } = useWallet();
-  const [deadline, setDeadline] = useState(new Date("2023-10-09T00:00:00"));
+  const [deadline, setDeadline] = useState(new Date("2023-10-16T00:00:00"));
   const [walletOpen, setWalletOpen] = useState(false);
 
   const [tokenPrice, setTokePrice] = useState(0);
