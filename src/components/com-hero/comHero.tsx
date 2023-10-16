@@ -35,7 +35,7 @@ export const ComponentHero = () => {
 
 const ComponentHeroContainer = () => {
   const { active, account, library } = useWallet();
-  const [deadline, setDeadline] = useState(new Date("2023-10-16T00:00:00"));
+  const [deadline, setDeadline] = useState(new Date("2023-10-31T00:00:00"));
   const [walletOpen, setWalletOpen] = useState(false);
 
   const [tokenPrice, setTokePrice] = useState(0);
@@ -305,7 +305,7 @@ const ComponentHeroContainer = () => {
                   <div className="flex flex-col gap-30 p-5 bg-white rounded-lg border-[2px] border-solid boder-[#d4dadf]">
                     <div className="hero-header rounded-lg p-25 font-semibold text-center text-white text-[30px]">
                       <p className="flex flex-row gap-[5px]">
-                        Stage #1 ends in
+                        Presale Ends In
                         <Countdown
                           date={deadline}
                           onComplete={countdownComplete}
@@ -544,7 +544,7 @@ const ComponentHeroContainer = () => {
                         </div>
                       )}
                       <div className="text-15 text-center pb-15">
-                        Stage 1 price: $0.0000100
+                        Presale price: $0.00001
                       </div>
                     </div>
                   </div>
